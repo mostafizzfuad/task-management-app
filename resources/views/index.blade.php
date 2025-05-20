@@ -1,4 +1,5 @@
 @extends('layouts.master')
+@section('page_title', 'Home')
 
 @section('content')
 <div class="container-fluid px-4">

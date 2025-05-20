@@ -21,6 +21,12 @@ class FrontendController extends Controller
         return view('contact', compact('title'));
     }
 
+    public function about()
+    {   
+        $title = 'About Us';
+        return view('about', compact('title'));
+    }
+
     /**
      * Show the form for creating a new resource.
      */
