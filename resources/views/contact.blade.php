@@ -4,7 +4,7 @@
 @section('content')
 <div class="container-fluid px-4">
     <h1 class="mt-4">{{ $title }}</h1>
-    <ol class="breadcrumb mb-4">
+    <ol class="breadcrumb mb-2">
         <li class="breadcrumb-item active">{{ $title }}</li>
     </ol>
     <div class="row justify-content-center">
@@ -17,7 +17,7 @@
                     <form action="">
                         <div class="mb-3">
                             <label for="" class="form-label">Name</label>
-                            <input type="name" class="form-control" name="" id="" placeholder="Enter Your Name" />
+                            <input type="text" class="form-control" name="" id="" placeholder="Enter Your Name" />
                         </div>
                         <div class="mb-3">
                             <label for="" class="form-label">Email</label>
